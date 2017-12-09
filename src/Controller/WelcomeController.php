@@ -7,7 +7,8 @@
  */
 
 namespace App\Controller;
-
+use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class WelcomeController extends Controller
 {
@@ -17,7 +18,7 @@ class WelcomeController extends Controller
     public function Index()
     {
         return $this->render(
-            'Welcome/home.html.twig.twig'
+            'Welcome/home.html.twig'
         );
     }
 }
