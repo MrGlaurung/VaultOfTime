@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33f35258-0206-4667-9a38-e4241813046c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/Assets/Scripts/VaultOfTimeApp/OfflineDB/People.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/Assets/Scripts/VaultOfTimeApp/OfflineDB/PeopleInProject.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/Assets/Scripts/VaultOfTimeApp/OfflineDB/Projects.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/Assets/Scripts/VaultOfTimeApp/OfflineDB/Tasks.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/Assets/Scripts/VaultOfTimeApp/OfflineDB/TimesForPerson.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" afterPath="$PROJECT_DIR$/templates/base.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,6 +28,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="services.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/services.yaml">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WelcomeController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WelcomeController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/WelcomeController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="765">
@@ -97,7 +102,6 @@
         <option value="$PROJECT_DIR$/config/routes.yaml" />
         <option value="$PROJECT_DIR$/config/services.yaml" />
         <option value="$PROJECT_DIR$/public/Assets/CSS/mobirise/style.css" />
-        <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/src/Auth/AuthenticationController.php" />
         <option value="$PROJECT_DIR$/src/Controller/AuthenticationController.php" />
         <option value="$PROJECT_DIR$/templates/Welcome/phoneinfo.html.twig" />
@@ -111,6 +115,7 @@
         <option value="$PROJECT_DIR$/public/Assets/Scripts/VaultOfTimeApp/OfflineDB/PeopleInProject.js" />
         <option value="$PROJECT_DIR$/public/Assets/Scripts/VaultOfTimeApp/OfflineDB/People.js" />
         <option value="$PROJECT_DIR$/public/Assets/Scripts/VaultOfTimeApp/OfflineDB/TimesForPerson.js" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
       </list>
     </option>
   </component>
@@ -309,12 +314,12 @@
       <workItem from="1512762356224" duration="89000" />
       <workItem from="1512769795213" duration="1857000" />
       <workItem from="1512822932574" duration="13179000" />
-      <workItem from="1512850964283" duration="3297000" />
+      <workItem from="1512850964283" duration="4117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18422000" />
+    <option name="totallyTimeSpent" value="19242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1133" extended-state="6" />
@@ -446,19 +451,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="82" column="122" lean-forward="false" selection-start-line="82" selection-start-column="122" selection-end-line="82" selection-end-column="122" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Auth/AuthenticationController.php" />
     <entry file="file://$PROJECT_DIR$/templates/Welcome/phoneinfo.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -526,7 +524,7 @@
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -536,7 +534,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -546,7 +544,7 @@
         <state relative-caret-position="408">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -556,7 +554,7 @@
         <state relative-caret-position="510">
           <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -566,7 +564,7 @@
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -598,6 +596,14 @@
             <element signature="e#698#725#1#PHP" expanded="true" />
             <element signature="e#868#897#1#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
