@@ -1230,6 +1230,11 @@ html {
 .mbr-contacts__text {
   margin: 0;
 }
+.mbr-contacts__title {
+  font-size: 10px;
+  font-style: italic;
+  color: #7b7b7b;
+}
 .mbr-contacts__header {
   color: #fff;
   font-size: 14px;

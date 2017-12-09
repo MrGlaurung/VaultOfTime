@@ -21,4 +21,34 @@ class WelcomeController extends Controller
             'Welcome/home.html.twig'
         );
     }
+
+    /**
+     * @Route("/About")
+     */
+    public function About()
+    {
+        return $this->render(
+            'Welcome/about.html.twig'
+        );
+    }
+
+    /**
+     * @Route("/Contact")
+     */
+    public function Contact()
+    {
+        return $this->render(
+            'Welcome/contact.html.twig'
+        );
+    }
+
+    /**
+     * @Route("/PhoneInfo")
+     */
+    public function PhoneInfo()
+    {
+        return $this->render(
+            'Welcome/phoneinfo.html.twig'
+        );
+    }
 }
