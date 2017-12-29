@@ -10,3 +10,20 @@
         </div>
     </section>
 {% endblock %}
+
+{% block javascripts %}
+
+    {{ parent() }}
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+    <script src="/Assets/Scripts/VaultOfTimeApp/OfflineDB/People.js"></script>
+    <script src="/Assets/Scripts/VaultOfTimeApp/OfflineDB/PeopleInProject.js"></script>
+    <script src="/Assets/Scripts/VaultOfTimeApp/OfflineDB/Projects.js"></script>
+    <script src="/Assets/Scripts/VaultOfTimeApp/OfflineDB/Tasks.js"></script>
+    <script src="/Assets/Scripts/VaultOfTimeApp/OfflineDB/TimesForPerson.js"></script>
+
+    <script src="/Assets/Scripts/VaultOfTimeApp/app.js"></script>
+    <script src="/Assets/Scripts/VaultOfTimeApp/vault-of-time-app.directive.js"></script>
+
+{% endblock %}
