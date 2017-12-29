@@ -1,27 +1,23 @@
-(function() {
+'use strict';
 
-    angular
-        .module('VoTApp')
-        .directive('vaultOfTimeApp', VaultOfTimeApp)
-        .controller('VaultOfTimeAppController', VaultOfTimeAppController);
+var vaultOfTime = require('./vaultoftime-angular');
 
-    function VaultOfTimeApp()
-    {
-        return {
-            restrict: 'E',
-            replace: true,
-            controller: 'VaultOfTimeAppController',
-            controllerAs: 'ctrl',
-            scope: {},
-            templateUrl: "/Assets/Scripts/VaultOfTimeApp/Pages/showtime.html"
-        };
-    }
+vaultOfTime.app
+    .directive('vaultOfTime', VaultOfTime)
+    .controller('VaultOfTimeController', VaultOfTimeController);
 
-    function VaultOfTimeAppController()
-    {
-        var vm = this;
+function VaultOfTime()
+{
+    return {
+        restrict: 'E',
+        replace: true,
+        controller: 'VaultOfTimeController',
+        controllerAs: 'ctrl',
+        scope: {},
+        template: require('./pages/showtime.html')
+    };
+}
 
-        vm.people = People;
-    }
-
-})();
+function VaultOfTimeController() {
+    var vm = this;
+}

@@ -1,8 +1,4 @@
-(function() {
+'use strict';
+var angular = require('angular');
 
-    'use strict';
-
-    angular
-        .module('VoTApp', []);
-
-})();
+exports.app = angular.module('VoTApp', []);

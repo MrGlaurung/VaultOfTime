@@ -1,3 +1,8 @@
+var $ = require("jquery");
+require('bootstrap-sass');
+require('smooth-scroll');
+require('../../css/VaultOfTime/style.scss');
+
 (function($){
 
     $.extend($.easing, {

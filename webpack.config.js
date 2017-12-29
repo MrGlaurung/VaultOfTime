@@ -11,14 +11,18 @@ Encore
     // .enableVersioning(Encore.isProduction())
 
     // uncomment to define the assets of the project
-    // .addEntry('js/app', './assets/js/app.js')
-    // .addStyleEntry('css/app', './assets/css/app.scss')
+    .addEntry('static', './assets/scripts/vaultoftime/script.js')
+//    .addEntry('vot/app', './assets/scripts/vaultoftimeapp/vot.js')
+    //.addStyleEntry('css/app', './assets/css/VaultOfTime/style.css')
 
     // uncomment if you use Sass/SCSS files
-    // .enableSassLoader()
+    .enableSassLoader()
+    // .enableSassLoader(function(sassOptions) {}, {
+    //     resolveUrlLoader: false
+    // })
 
     // uncomment for legacy applications that require $/jQuery as a global variable
-    // .autoProvidejQuery()
+    .autoProvidejQuery()
+    .addLoader({ test: /\.html$/, loader: 'html-loader' })
 ;
-
 module.exports = Encore.getWebpackConfig();
