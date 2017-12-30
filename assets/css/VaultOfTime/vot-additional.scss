@@ -1,14 +1,16 @@
 @isPublish: true;
 
+$menuBgColor: rgb(100, 200, 100);
+
 #menu1-e {
 .navbar {
   padding: .5rem 0;
-  background: @menuBgColor;
+  background: $menuBgColor;
   transition: none;
   min-height: 77px;
 }
 .navbar-dropdown.bg-color.transparent.opened {
-  background: @menuBgColor;
+  background: $menuBgColor;
 }
 a {
   font-style: normal;
@@ -94,7 +96,7 @@ a {
 }
 .dropdown {
   .dropdown-menu {
-    background: @menuBgColor;
+    background: $menuBgColor;
     display: none;
     position: absolute;
     min-width: 5rem;
