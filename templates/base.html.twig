@@ -11,7 +11,6 @@
 
         {% block stylesheets %}
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&subset=cyrillic,latin,greek,vietnamese">
-            <link rel="stylesheet" href="{{ asset('/build/static.css') }}" />
         {% endblock %}
     </head>
     <body>
@@ -103,7 +102,7 @@
         </span>
 
         {% block javascripts %}
-            <script src="{{ asset('/build/static.js') }}"></script>
+            <script src="{{ asset('static') }}"></script>
         {% endblock %}
     </body>
 </html>
